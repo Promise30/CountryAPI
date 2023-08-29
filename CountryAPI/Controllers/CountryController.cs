@@ -45,7 +45,7 @@ namespace CountryAPI.Controllers
             var responseBody = await response.Content.ReadAsStringAsync();
             var parsedResponse = JsonSerializer.Deserialize<object>(responseBody);
 
-            // Return the parsed response as JSON
+
             return Ok(parsedResponse);
         }
 
@@ -60,7 +60,7 @@ namespace CountryAPI.Controllers
             var responseBody = await response.Content.ReadAsStringAsync();
             var parsedResponse = JsonSerializer.Deserialize<object>(responseBody);
 
-            // Return the parsed response as JSON
+
             return Ok(parsedResponse);
 
         }
