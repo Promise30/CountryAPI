@@ -1,5 +1,6 @@
 # CountryAPI
 Welcome to the **Country Information API** project! This API serves as a wrapper for an external API, providing endpoints to retrieve country details, states, and cities based on user requests.
+This is the link to the Postman documentation for this project: https://documenter.getpostman.com/view/28146982/2s9Y5creqD
 
 ## Endpoints
 
